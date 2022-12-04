@@ -10,10 +10,10 @@ namespace AdventOfCode2022
     {
         static void Main()
         {
-            string[] input = File.ReadAllLines("inputs/day3.txt");
+            string[] input = File.ReadAllLines("inputs/day4.txt");
 
 
-            AdventOfCode adventOfCode = new Day3();
+            AdventOfCode adventOfCode = new Day4();
 
             adventOfCode.Run1(input);
             adventOfCode.Run2(input);
